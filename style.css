@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.bloccolilla {
+    background-color: blueviolet;
+    height: 80px;
+}
+.bloccogiallo {
+    background-color: yellowgreen;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bloccoblu {
+    background-color: rgb(0, 140, 255);
+    height: 60px;
+}
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.blocco1 {
+    float: left;
+    width: 25%;
+    background-color: blue;
+    height: 500px;
+}
+.blocco2 {
+    float: left;
+    width: 48%;
+    background-color: blue;
+    height: 500px;
+    margin-left: 1%;
+}
+.blocco3 {
+    float: right;
+    width: 25%;
+    background-color: blue;
+    height: 500px;
+}
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bloccoviola {
+    background-color: blueviolet;
+    height: 90px;
+}
+body {
+    margin: 1rem 1rem;
+    
+}
+
